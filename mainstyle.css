@@ -246,6 +246,12 @@
         .nocartmsg{
             font-weight: 400 !important;text-align: center;font-family: nexalight;
         }
+        a{
+            color:inherit !important
+        }
+        a:hover{
+            color:inherit !important
+        }
         .top-cart{
             position: sticky !important;
             position: -webkit-sticky !important;
