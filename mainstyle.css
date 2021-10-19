@@ -91,7 +91,7 @@
     box-shadow: 1px 3px 5px rgba(0,00,0,0.3);
 }
 img{
-    border-radius:7px
+    border-radius:10px !important
 }
 .view-gallery:hover,.view-gallery:focus{
     outline: none;
