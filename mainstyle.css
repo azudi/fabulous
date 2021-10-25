@@ -242,14 +242,24 @@ font-size: 12px;margin: 0 5px;box-shadow: 1px 3px 5px rgba(0,00,0,0.15);
             display: inline-flex !important;justify-content: center;font-weight: 900;align-items: center;
             
         }
+        @media all and (max-width:350px){
+            .cookie-display{
+                position: fixed;width:80%;
+            }  
+        }
         @media all and (max-width:576px){
             .cookie-display{
                 position: fixed;width:270px;
             }  
         }
-        @media all and (max-width:350px){
+        @media all and (min-width:576px){
             .cookie-display{
-                position: fixed;width:80%;
+                position: fixed;width:300px;
+            }  
+        }
+        @media all and (min-width:992px){
+            .cookie-display{
+                position: fixed;width:380px;
             }  
         }
         .tools{
