@@ -1,7 +1,7 @@
 
 
 ::root{
-    --blue:cornflowerblue;
+    --blue:rgb(100, 149, 237);
 }
 
  body{
@@ -313,7 +313,7 @@ font-size: 12px;margin: 0 5px;box-shadow: 1px 3px 5px rgba(0,00,0,0.15);
         animation:6s infinite ease-in-out loops;
         -webkit-background-clip: text;background-size: 220%;
         background-position: left;
-        background-image: linear-gradient(90deg ,transparent 50%,rgba(255,255,255,0.8) 60%,rgba(255,255,255,0.8) 70%);
+        background-image: linear-gradient(90deg ,transparent 40%,rgba(255,255,255,0.8) 50%,rgba(171, 196, 243, 0.8) 60%);
         }
      @keyframes loops{
       0%{background-position: left;}
